@@ -12,7 +12,7 @@ We will be looking at these Processes below in a chronolgical order.
 * Answering our Questions with Visualizations.
 * Power BI Deployment
 
-# Asking the relevant questions and stating some hypothesis
+# Asking the relevant questions and stating some hypothesis.
 
 
 
