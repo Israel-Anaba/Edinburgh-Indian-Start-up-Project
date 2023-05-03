@@ -13,8 +13,13 @@ We will be looking at these Processes below in a chronolgical order.
 * Power BI Deployment
 
 # Asking the relevant questions and stating some hypothesis.
-
-
+* Do companies in certain sectors tend to receive more funding than others?
+* Is there a correlation between the stage of development of a company and the amount of funding it receives?
+* Are companies with more founders more likely to receive larger
+amounts of funding?  
+* Are there any patterns in the location of a company's headquarters and the amount of funding it receives? 
+* Does the number of investors in a company tend to impact the amount of funding it receives? 
+* Headquarters: What are the top 5 countries with the highest number of companies in the dataset? Which country has the highest funding?
 
 # Cleaning the data. 
 
