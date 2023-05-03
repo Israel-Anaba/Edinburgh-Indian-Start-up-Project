@@ -16,4 +16,18 @@ We will be looking at these Processes below in a chronolgical order.
 
 
 
+# Cleaning the data. 
+
+
+# Running Some Exploratory Data Analysis.
+
+
+# Statistical Testing.
+
+
+# Answering our Questions with Visualizations.
+
+
+
+# Power BI Deployment
 
