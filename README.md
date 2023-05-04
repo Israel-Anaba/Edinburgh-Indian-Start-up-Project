@@ -13,6 +13,7 @@ We will be looking at these Processes below in a chronolgical order.
 * Power BI Deployment
 
 # Asking the relevant questions and stating some hypothesis.
+## Questions
 * Do companies in certain sectors tend to receive more funding than others?
 * Is there a correlation between the stage of development of a company and the amount of funding it receives?
 * Are companies with more founders more likely to receive larger
@@ -20,6 +21,13 @@ amounts of funding?
 * Are there any patterns in the location of a company's headquarters and the amount of funding it receives? 
 * Does the number of investors in a company tend to impact the amount of funding it receives? 
 * Headquarters: What are the top 5 countries with the highest number of companies in the dataset? Which country has the highest funding?
+
+## Hypothesis
+* Startups in the e-commerce and fintech sectors receive more funding compared to other sectors in India.
+* There is a positive correlation between the stage of development of a company and the amount of funding it receives in India.
+* Companies with a larger number of founders are more likely to receive higher amounts of funding in India.
+* Startups headquartered in major metropolitan areas such as Mumbai, Bangalore, and Delhi are more likely to receive larger amounts of funding in India.
+* The number of investors in a company is positively correlated with the amount of funding it receives in India.
 
 # Cleaning the data. 
 
