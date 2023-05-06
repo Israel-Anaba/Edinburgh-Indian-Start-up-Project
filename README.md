@@ -20,7 +20,8 @@ We will be looking at these Processes below in a chronolgical order.
 amounts of funding?  
 * Are there any patterns in the location of a company's headquarters and the amount of funding it receives? 
 * Does the number of investors in a company tend to impact the amount of funding it receives? 
-* Headquarters: What are the top 5 countries with the highest number of companies in the dataset? Which country has the highest funding?
+* Founders: How many founders are associated with each company? What is the average number of founders?
+* What are the top 10 companies with the highest funding?
 
 ## Hypothesis
 * Startups in the e-commerce and fintech sectors receive more funding compared to other sectors in India.
@@ -28,6 +29,8 @@ amounts of funding?
 * Companies with a larger number of founders are more likely to receive higher amounts of funding in India.
 * Startups headquartered in major metropolitan areas such as Mumbai, Bangalore, and Delhi are more likely to receive larger amounts of funding in India.
 * The number of investors in a company is positively correlated with the amount of funding it receives in India.
+* Is there a relationship between the sector of a company and the amount of funding it receives?
+* Is there a difference in the average funding received by companies headquartered in different regions?
 
 # Cleaning the data. 
 
