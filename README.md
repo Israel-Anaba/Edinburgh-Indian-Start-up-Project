@@ -36,7 +36,9 @@ amounts of funding?
 
 
 # Running Some Exploratory Data Analysis.
-
+* Univariate Analysis
+|* Bivariate Analysis
+* Multivariate Analysis
 
 # Statistical Testing.
 
