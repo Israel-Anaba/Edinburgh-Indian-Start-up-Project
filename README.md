@@ -24,7 +24,7 @@ amounts of funding?
 * What are the top 10 companies with the highest funding?
 
 ## Hypothesis
-* Startups in the e-commerce and fintech sectors receive more funding compared to other sectors in India.
+* Startups in the e-commerce and fintech sectors receive more funding compared to Technology sector in India.
 * There is a positive correlation between the stage of development of a company and the amount of funding it receives in India.
 * Companies with a larger number of founders are more likely to receive higher amounts of funding in India.
 * Startups headquartered in major metropolitan areas such as Mumbai, Bangalore, and Delhi are more likely to receive larger amounts of funding in India.
@@ -32,16 +32,41 @@ amounts of funding?
 * Is there a relationship between the sector of a company and the amount of funding it receives?
 * Is there a difference in the average funding received by companies headquartered in different regions?
 
-# Cleaning the data. 
+## Packages & Libraries
+* import pandas as pd
+* from scipy.stats import pearsonr
+* from scipy.stats import ttest_ind
+* import scipy.stats as statst
+* from scipy.stats import f_oneway
+* from sklearn.preprocessing import LabelEncoder
+* import seaborn as sns
+* import matplotlib.pyplot as plt
+* from scipy.stats import mode
+* from sklearn.impute import SimpleImputer
 
 
-# Running Some Exploratory Data Analysis.
+## Cleaning the data. 
+* Replacing missing values by using mode of the column
+* Dropping values and duplicates
+* Renaming values using loc method
+* Replacing missing values with averages: This was done by accessing the distribution of the data
+* Handling missing values by using loc method.
+* Creating a date series to spread the data out in a time frame.
+* Convert currency from rupees to dollars by writing a function.
+* Filling the missing values in the amount column by: converting the structure of the data and filling  * it the distribution of the data with the aid of a histogram and box plot, Then using the median as standard.
+* Restructuring the sector column by first creating a several lists of Keywords realted to different sector industries. Then using the pandas 'str.contain()' method to check if any keyword in each appear in the sector column for each row of the dataframe.If so,it will assign it to the corresponding industry label in the new column created for that row. 
+
+
+## Running Some Exploratory Data Analysis.
 * Univariate Analysis
-|* Bivariate Analysis
+* Bivariate Analysis
 * Multivariate Analysis
 
 # Statistical Testing.
-
+* A Ttest Statiscal method was employed to test if startups in the E-Commerce & Fintech sector received more funding than those in Technology.
+* A Pearsonr test was run to access if there is a positive correlation between the stage of development and funding the company receives.
+* Another Pearsonr Test was used to check if the number of founders had an influence in the funding received.
+* Anova test was employed to test the significant difference between the hypothesis that Startups based in certain areas had a upper hand to the rest.
 
 # Answering our Questions with Visualizations.
 
