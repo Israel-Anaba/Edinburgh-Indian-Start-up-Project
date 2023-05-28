@@ -66,11 +66,19 @@ amounts of funding?
 * A Ttest Statiscal method was employed to test if startups in the E-Commerce & Fintech sector received more funding than those in Technology.
 * A Pearsonr test was run to access if there is a positive correlation between the stage of development and funding the company receives.
 * Another Pearsonr Test was used to check if the number of founders had an influence in the funding received.
-* Anova test was employed to test the significant difference between the hypothesis that Startups based in certain areas had a upper hand to the rest.
+* Ttest was employed to test the significant difference between the hypothesis that Startups based in certain areas had a upper hand to the rest.
+* A pearsonr test was used as a bases to check the linear relationship of the hypothesis that number of investors in a company is positively related to the funding amount.
 
 # Answering our Questions with Visualizations.
-
-
+* These were some of the visualizations tools used in the process of answering our questions:
+* Violin plot
+* Box plot
+* Bar chart 
+* Scatter plot 
+These visualization added a unique insight into the data and the events surrounding the Indian startup ecosystem.It was a satisfactory overview of our hypothesis test and verification of the facts associated with the data.
+* Further analysis were done to check analyse the data
 
 # Power BI Deployment
-
+A PDF file is provided in the repository expanding on some of the questions to be analyzed. This was down by simply using the python scripting tool in Power BI to deploy our already visualized questions into power bi.
+* This is a link to walk you through the procedure : https://www.youtube.com/watch?v=3_DOF_qjguA.  
+* Another link to the documention article on Python v Power Bi Integration : https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals
