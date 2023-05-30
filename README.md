@@ -1,6 +1,7 @@
 # Edinburgh-Indian-Start-up-Project
 As the data expert of your team, you have been tasked with investigating the Indian start-up environment and recommending the optimal course of action for your team's venture into this space.
 
+
 # Context
 The data for this project spans from 2018-2019. Our goal will be to satisfy the processes for handling the data and also provide a detailed analysis of the process. 
 
@@ -82,3 +83,8 @@ These visualization added a unique insight into the data and the events surround
 A PDF file is provided in the repository expanding on some of the questions to be analyzed. This was down by simply using the python scripting tool in Power BI to deploy our already visualized questions into power bi.
 * This is a link to walk you through the procedure : https://www.youtube.com/watch?v=3_DOF_qjguA.  
 * Another link to the documention article on Python v Power Bi Integration : https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals
+
+
+# NB : Below is a link to an article i wrote on the project
+ * https://israelanaba.medium.com/credit-microsoft-teams-image-getty-image-98fb01e63875?source=user_profile---------0---------------------------- 
+
