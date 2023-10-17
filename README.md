@@ -1,90 +1,135 @@
-# Edinburgh-Indian-Start-up-Project
-As the data expert of your team, you have been tasked with investigating the Indian start-up environment and recommending the optimal course of action for your team's venture into this space.
+# Edinburgh Indian Startup Project 👨‍💼💼🚀
+
+The objective of this project is to embark on a journey through the Indian startup environment. Our mission? To recommend the optimal course of action for venturing into this dynamic space. 🌟
+
+[![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-yellow)
+![Visualization](https://img.shields.io/badge/Visualization-orange)
+![Power BI](https://img.shields.io/badge/Power%20BI-red)
+
+## Preview 🔍
+
+Below is a preview showcasing the app's appearance.
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Top</p>
+        <img src="Screenshots/Anlys1.png" alt="Top" width="90%"/>
+    </div>
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Middle</p>
+        <img src="Screenshots/Anlys2.png" alt="Middle" width="90%"/>
+    </div>
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Bottom</p>
+        <img src="Screenshots/Anlys3.png" alt="Bottom" width="90%"/>
+    </div>
+</div>
+
+## Project Overview 📊
+
+The project spans the years 2018 to 2021, and it's designed to accomplish two main objectives: data handling and in-depth analysis. Our journey unfolds as a thrilling expedition through these milestones:
+
+### 1. 🤔 Asking Relevant Questions and Hypotheses
+
+**🧐 Questions:**
+
+- Do companies in specific sectors receive more funding than others?
+- Is there a correlation between a company's development stage and the funding it receives?
+- Does the number of founders impact funding?
+- What's the connection between a company's location and its funding?
+- Does the number of investors influence funding?
+
+**🧪 Hypotheses:**
+
+- E-commerce and fintech startups receive more funding than the technology sector.
+- A positive correlation exists between the development stage and funding.
+- Companies with more founders receive higher funding.
+- Major metropolitan areas attract more significant funding.
+- The number of investors correlates with funding.
 
 
-# Context
-The data for this project spans from 2018-2019. Our goal will be to satisfy the processes for handling the data and also provide a detailed analysis of the process. 
+### 2. 📚 Packages & Libraries
 
-We will be looking at these Processes below in a chronolgical order. 
-* Asking the relevant questions and stating some hypothesis.
-* Cleaning the data. 
-* Running Some Exploratory Data Analysis.
-* Statistical Testing.
-* Answering our Questions with Visualizations.
-* Power BI Deployment
+Our toolkit includes powerful Python libraries:
 
-# Asking the relevant questions and stating some hypothesis.
-## Questions
-* Do companies in certain sectors tend to receive more funding than others?
-* Is there a correlation between the stage of development of a company and the amount of funding it receives?
-* Are companies with more founders more likely to receive larger
-amounts of funding?  
-* Are there any patterns in the location of a company's headquarters and the amount of funding it receives? 
-* Does the number of investors in a company tend to impact the amount of funding it receives? 
-* Founders: How many founders are associated with each company? What is the average number of founders?
-* What are the top 10 companies with the highest funding?
+- Pandas 🐼
+- Scipy 📈
+- Seaborn 📊
+- Matplotlib 📉
+- Scikit-learn 🧠
 
-## Hypothesis
-* Startups in the e-commerce and fintech sectors receive more funding compared to Technology sector in India.
-* There is a positive correlation between the stage of development of a company and the amount of funding it receives in India.
-* Companies with a larger number of founders are more likely to receive higher amounts of funding in India.
-* Startups headquartered in major metropolitan areas such as Mumbai, Bangalore, and Delhi are more likely to receive larger amounts of funding in India.
-* The number of investors in a company is positively correlated with the amount of funding it receives in India.
-* Is there a relationship between the sector of a company and the amount of funding it receives?
-* Is there a difference in the average funding received by companies headquartered in different regions?
+### 3. 🧹 Cleaning the Data
 
-## Packages & Libraries
-* import pandas as pd
-* from scipy.stats import pearsonr
-* from scipy.stats import ttest_ind
-* import scipy.stats as statst
-* from scipy.stats import f_oneway
-* from sklearn.preprocessing import LabelEncoder
-* import seaborn as sns
-* import matplotlib.pyplot as plt
-* from scipy.stats import mode
-* from sklearn.impute import SimpleImputer
+We kick things off by giving our data a good scrub:
 
+- Replacing missing values
+- Dropping duplicates
+- Restructuring columns
 
-## Cleaning the data. 
-* Replacing missing values by using mode of the column
-* Dropping values and duplicates
-* Renaming values using loc method
-* Replacing missing values with averages: This was done by accessing the distribution of the data
-* Handling missing values by using loc method.
-* Creating a date series to spread the data out in a time frame.
-* Convert currency from rupees to dollars by writing a function.
-* Filling the missing values in the amount column by: converting the structure of the data and filling  * it the distribution of the data with the aid of a histogram and box plot, Then using the median as standard.
-* Restructuring the sector column by first creating a several lists of Keywords realted to different sector industries. Then using the pandas 'str.contain()' method to check if any keyword in each appear in the sector column for each row of the dataframe.If so,it will assign it to the corresponding industry label in the new column created for that row. 
+### 4. 🔍 Exploratory Data Analysis
+
+Our journey continues with deep dives into the data:
+
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+
+### 5. 📊 Statistical Testing
+
+We employ various statistical tests such as T-tests and Pearson correlation to validate our hypotheses.
+
+### 6. 📈 Answering Questions with Visualizations
+
+Our insights come to life through captivating visuals:
+
+- Violin plots 🎻
+- Box plots 📦
+- Bar charts 📊
+- Scatter plots 🌐
+
+### 7. 🌟 Power BI Deployment
+
+We take our analysis to the next level with Power BI's Python scripting tool:
+
+- Enhance your analysis with [Power BI](https://www.youtube.com/watch?v=3_DOF_qjguA)
+- Discover Python integration with Power BI [here](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals)
+
+### 8. 🔍 Further Reading
+
+For a deeper dive into our findings, check out my article covering the topic [Unveiling the Indian Startup Ecosystem: A Deep Dive into Funding Trends, A Data Analyst Perspective](https://israelanaba.medium.com/credit-microsoft-teams-image-getty-image-98fb01e63875).
 
 
-## Running Some Exploratory Data Analysis.
-* Univariate Analysis
-* Bivariate Analysis
-* Multivariate Analysis
 
-# Statistical Testing.
-* A Ttest Statiscal method was employed to test if startups in the E-Commerce & Fintech sector received more funding than those in Technology.
-* A Pearsonr test was run to access if there is a positive correlation between the stage of development and funding the company receives.
-* Another Pearsonr Test was used to check if the number of founders had an influence in the funding received.
-* Ttest was employed to test the significant difference between the hypothesis that Startups based in certain areas had a upper hand to the rest.
-* A pearsonr test was used as a bases to check the linear relationship of the hypothesis that number of investors in a company is positively related to the funding amount.
+ ### 9. 🚀 Setup & Run
 
-# Answering our Questions with Visualizations.
-* These were some of the visualizations tools used in the process of answering our questions:
-* Violin plot
-* Box plot
-* Bar chart 
-* Scatter plot 
-These visualization added a unique insight into the data and the events surrounding the Indian startup ecosystem.It was a satisfactory overview of our hypothesis test and verification of the facts associated with the data.
-* Further analysis were done to check analyse the data
+```markdown
 
-# Power BI Deployment
-A PDF file is provided in the repository expanding on some of the questions to be analyzed. This was down by simply using the python scripting tool in Power BI to deploy our already visualized questions into power bi.
-* This is a link to walk you through the procedure : https://www.youtube.com/watch?v=3_DOF_qjguA.  
-* Another link to the documention article on Python v Power Bi Integration : https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals
+To get started with this project, follow these simple steps:
 
+1. **Python Installation**: Ensure you have Python 3.8 or higher installed on your system. You can download Python from the official website [here](https://www.python.org/downloads/).
 
-# NB : Below is a link to an article i wrote on the project
- * https://israelanaba.medium.com/credit-microsoft-teams-image-getty-image-98fb01e63875?source=user_profile---------0---------------------------- 
+2. **Install Dependencies**: You'll need to install the required Python libraries for this project. Open your command line or terminal and run the following command within the project directory:
 
+   ```bash
+   pip install -r requirements.txt
+```
+
+   This will install all the necessary libraries and packages.
+
+3. **Run in Jupyter Notebook**: To explore the project interactively, start Jupyter Notebook. Run the following command:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   It will open Jupyter Notebook in your web browser. Navigate to the project directory, and you'll find Jupyter notebooks to run and explore.
+
+That's it! You're all set to dive into the project and start your data science journey. 🌐💼📈
+
+```
+
+This setup section is tailored to your specific case, where you're not using a virtual environment but are running the project in Jupyter Notebook.
+```
