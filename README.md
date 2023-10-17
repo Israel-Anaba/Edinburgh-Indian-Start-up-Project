@@ -130,6 +130,3 @@ To get started with this project, follow these simple steps:
 That's it! You're all set to dive into the project and start your data science journey. 🌐💼📈
 
 ```
-
-This setup section is tailored to your specific case, where you're not using a virtual environment but are running the project in Jupyter Notebook.
-```
