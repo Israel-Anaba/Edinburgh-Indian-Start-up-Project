@@ -50,7 +50,6 @@ The project spans the years 2018 to 2021, and it's designed to accomplish two ma
 - Major metropolitan areas attract more significant funding.
 - The number of investors correlates with funding.
 
-
 ### 2. 📚 Packages & Libraries
 
 Our toolkit includes powerful Python libraries:
@@ -101,9 +100,7 @@ We take our analysis to the next level with Power BI's Python scripting tool:
 
 For a deeper dive into our findings, check out my article covering the topic [Unveiling the Indian Startup Ecosystem: A Deep Dive into Funding Trends, A Data Analyst Perspective](https://israelanaba.medium.com/credit-microsoft-teams-image-getty-image-98fb01e63875).
 
-
-
- ### 9. 🚀 Setup & Run
+### 9. 🚀 Setup & Run
 
 ```markdown
 
@@ -128,5 +125,3 @@ To get started with this project, follow these simple steps:
    It will open Jupyter Notebook in your web browser. Navigate to the project directory, and you'll find Jupyter notebooks to run and explore.
 
 That's it! You're all set to dive into the project and start your data science journey. 🌐💼📈
-
-```
