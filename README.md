@@ -93,7 +93,7 @@ Our insights come to life through captivating visuals:
 
 We take our analysis to the next level with Power BI's Python scripting tool:
 
-- Enhance your analysis with [Power BI](https://www.youtube.com/watch?v=3_DOF_qjguA)
+- Interact with the Dashboard here [Power BI](https://app.powerbi.com/view?r=eyJrIjoiMzBjNDVmNjctYTc1Mi00NGRiLThjYzMtOTVhZThjNjNkNDM5IiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9)
 - Discover Python integration with Power BI [here](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals)
 
 ### 8. 🔍 Further Reading
